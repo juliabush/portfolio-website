@@ -134,3 +134,19 @@
     border-radius: 1rem;
     cursor: pointer;
   }
+  .iframe__container {
+    margin-top: 1.25rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
+  iframe {
+    border-radius: 0.7rem;
+    width: 100%;
+
+  }
+  img {
+    border-radius: 0.7rem;
+    width: 280px;
+    height: 160px;
+   object-fit: cover;
+  }
