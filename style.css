@@ -115,14 +115,17 @@
     color: aqua;
   }
   .project-carousel__container {
-    overflow-x: hidden; 
+    overflow-x: hidden;
     position: relative;
     z-index: 15;
-    bottom: 13%;
+    bottom: 10%;
+    width: 100%;
   }
   .project-carousel {
     overflow-x: hidden;
     display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
     gap: 2.5rem;
     width: max-content;
   }
