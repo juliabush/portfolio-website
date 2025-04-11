@@ -1,0 +1,82 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+  }
+  
+  body {
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  img, picture, video, canvas, svg {
+    display: block;
+  }
+  
+  input, button, textarea, select {
+    font: inherit;
+  Font-family: inherit;
+  }
+  
+  html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+  }
+  
+  ul[role='list'],
+  ol[role='list'] {
+    list-style: none;
+  }
+  
+  #root, #__next {
+    isolation: isolate;
+  }
+  html, body {
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Manrope';
+}
+   main {
+    display: grid;
+    height: 100%;
+    background: linear-gradient(to bottom, rgb(73, 17, 41), rgb(5, 6, 44));
+  }
+  .stars-layover {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    object-fit: cover;
+  }
+  .website__text-container {
+    width: 500px;
+    display: grid;
+    place-content: start;
+    color: white;
+    margin: 5%;
+  }
+  .pattern-hills-layover {
+    position: absolute;
+    bottom: 0;
+    z-index: 4;
+    width: 100%;
+    object-fit: cover;
+  }
+  .heading__name {
+    font-size: 2.25rem;
+  }
+  .main__paragraph {
+    font-size: 1.25rem;
+  }
+  .icon__container {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.5rem;
+  }
+  i {
+    cursor: pointer;
+    font-size: 1.75rem;
+  }
