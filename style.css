@@ -42,7 +42,7 @@
 }
    main {
     display: grid;
-    height: 100%;
+    min-height: 100vh;
     background: linear-gradient(to bottom, rgb(73, 17, 41), rgb(5, 6, 44));
   }
   .stars-layover {
@@ -61,7 +61,7 @@
   .pattern-hills-layover {
     position: absolute;
     bottom: 0;
-    z-index: 4;
+    z-index: 3;
     width: 100%;
     object-fit: cover;
   }
@@ -114,12 +114,17 @@
     border: 2px solid aqua;
     color: aqua;
   }
+  .project-carousel__container {
+    overflow-x: hidden; 
+    position: relative;
+    z-index: 15;
+    bottom: 13%;
+  }
   .project-carousel {
-    position: absolute;
     overflow-x: hidden;
-    bottom: 8%;
     display: flex;
     gap: 2.5rem;
+    width: max-content;
   }
   .carousel-card {
     background-color: rgba(24, 13, 53, 0.7);
@@ -127,4 +132,5 @@
     width: 320px;
     height: 400px;
     border-radius: 1rem;
+    cursor: pointer;
   }
