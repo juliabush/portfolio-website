@@ -118,7 +118,7 @@
     overflow-x: hidden;
     position: relative;
     z-index: 15;
-    bottom: 10%;
+    bottom: 13%;
     width: 100%;
   }
   .project-carousel {
@@ -141,16 +141,59 @@
     margin-top: 1.25rem;
     margin-left: 1.25rem;
     margin-right: 1.25rem;
+    margin-bottom: .3rem;
   }
   iframe {
     border-radius: 0.7rem;
     width: 100%;
-    height: 320px;
+    height: 310px;
 
   }
   .project-carousel__container img {
+    margin-top: 1.25rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    margin-bottom: .75rem;
     border-radius: 0.7rem;
     width: 280px;
     height: 160px;
    object-fit: cover;
+  }
+  .project-carousel__container p {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
+  .project-carousel__container button {
+    width: 216px;
+    border-radius: .5rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-shadow: 6px 6px 10px rgb(1, 1, 32);
+    background-color: rgb(72, 52, 163);
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.795);
+    border: none;
+  }
+  .icon-button__flexbox {
+    opacity: 0.9;
+    position: absolute;
+    margin-left: 1.25rem;
+    margin-left: 1.25rem;
+    margin-bottom: 1rem;
+    gap: 1.25rem;
+    bottom: 0;
+    display: flex;
+  }
+  .stack {
+    font-size: 0.9rem;
+    color: rgba(144, 90, 175);
+    font-weight: 800;
+    text-shadow: 1px 1px 4px rgba(90, 72, 102, 0.753);
+  }
+  .project-title {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 1.45rem;
+    text-shadow: 6px 6px 6px rgba(1, 0, 2, 0.938);
   }
